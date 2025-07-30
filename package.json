@@ -1,0 +1,37 @@
+{
+  "name": "tarot-reader",
+  "version": "1.0.0",
+  "description": "Online Tarot Card Reading Web Application",
+  "main": "server/dist/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "build": "npm run client:build && npm run server:build",
+    "client:build": "cd client && npm run build",
+    "server:build": "cd server && npm run build",
+    "serve": "cd server && npm start",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm run install:client && npm run install:server",
+    "lint": "npm run client:lint && npm run server:lint",
+    "client:lint": "cd client && npm run lint",
+    "server:lint": "cd server && npm run lint",
+    "format": "npm run client:format && npm run server:format",
+    "client:format": "cd client && npm run format",
+    "server:format": "cd server && npm run format"
+  },
+  "keywords": [
+    "tarot",
+    "cards",
+    "divination",
+    "react",
+    "nodejs",
+    "openai"
+  ],
+  "author": "Tarot Reader Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
