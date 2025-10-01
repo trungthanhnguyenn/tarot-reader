@@ -39,12 +39,19 @@ const drawCards = (cards: TarotCard[]): DrawnCard[] => {
 };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  await new Promise((resolve, reject) => {
-    corsHandler(req, res, (err: any) => {
-      if (err) reject(err);
-      else resolve(undefined);
-    });
-  });
+  // Handle CORS preflight request
+  if (req.method === 'OPTIONS') {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.setHeader('Access-Control-Max-Age', '86400');
+    return res.status(200).end();
+  }
+
+  // Apply CORS headers for all responses
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
   // Handle health check
   if (req.url?.includes('/health')) {
