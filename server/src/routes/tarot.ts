@@ -1,8 +1,9 @@
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 import GeminiService from '../utils/gemini';
 import { TarotCard, DrawnCard, TarotRequest, DatabaseReading } from '../types';
 import { validateRequest } from '../middleware/validator';
 import allCards from '../../../assets/json/tarot_card_all.json';
+import * as crypto from 'crypto';
 
 const router = Router();
 
@@ -37,12 +38,11 @@ const drawCards = (cards: TarotCard[]): DrawnCard[] => {
   }));
 };
 
-router.post('/tarot', validateRequest, async (req: any, res: any) => {
+router.post('/tarot', validateRequest, async (req: Request, res: Response) => {
   try {
     const { name, dob }: TarotRequest = req.body;
 
     // Use simple hash for caching (crypto available in Vercel)
-    const crypto = require('crypto');
     const today = new Date().toISOString().split('T')[0];
     const hashKey = crypto.createHash('sha256').update(`${name}-${dob}-${today}`).digest('hex');
 
@@ -78,11 +78,12 @@ router.post('/tarot', validateRequest, async (req: any, res: any) => {
     });
     return;
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Error processing tarot request:', error);
+    const errorMessage = error instanceof Error ? error.message : 'An internal server error occurred.';
     res.status(500).json({ 
       success: false,
-      error: error.message || 'An internal server error occurred.' 
+      error: errorMessage
     });
     return;
   }
