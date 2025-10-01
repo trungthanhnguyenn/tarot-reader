@@ -1,13 +1,13 @@
 Vai trò: Bạn là Senior Web-Engineer chuyên React / Node.js, nhiệm vụ tạo 1 repo hoàn chỉnh cho trang web Tarot Online theo yêu cầu sau.
 1. Tổng quan
-Mục tiêu: web cho phép user nhập Tên + Ngày sinh → bốc bài Tarot → LLM (OpenAI) trả lời.
+Mục tiêu: web cho phép user nhập Tên + Ngày sinh → bốc bài Tarot → LLM (Gemini) trả lời.
 Dữ liệu đầu vào:
 – Thư mục assets/ chứa 78 ảnh *.png.
 – File cards.json (mỗi lá có name, keywords, upright, reversed, …).
 Output: 1 repo Git với:
 Frontend: React + Vite + TailwindCSS (đẹp, responsive).
 Backend: Node.js (Express) + SQLite.
-LLM: OpenAI (GPT-3.5-turbo).
+LLM: Google Gemini (Gemini 1.5 Flash).
 Cache: nếu đã bốc bài hôm nay → trả kết quả cũ.
 2. Cấu trúc repo
 Copy
@@ -24,7 +24,7 @@ tarot-web/
 │   │   │   └── tarot.ts
 │   │   ├── utils/
 │   │   │   ├── db.ts
-│   │   │   └── openai.ts
+│   │   │   └── gemini.ts
 │   │   └── index.ts
 ├── assets/                 # ảnh 78 lá
 ├── cards.json
@@ -71,7 +71,7 @@ date TEXT,       -- ISO date
 cards TEXT,      -- JSON string [ {name, isReversed} ]
 reading TEXT     -- Markdown từ LLM
 – Nếu key đã tồn tại → trả kết quả cũ ngay.
-D. Gọi LLM (OpenAI)
+D. Gọi LLM (Gemini)
 Prompt template:
 Copy
 Bạn là Tarot reader. User: {name}, sinh {dob}.  
@@ -83,7 +83,7 @@ Trả về Markdown (có thể có **bold**, emoji 🃏).
 E. Dev & Deploy
 .env.example:
 Copy
-OPENAI_API_KEY=sk-xxx
+GEMINI_KEY=your_gemini_api_key_here
 PORT=4000
 Scripts:
 npm run dev => client Vite dev server.
