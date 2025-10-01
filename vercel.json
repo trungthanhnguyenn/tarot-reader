@@ -9,8 +9,8 @@
       "src": "client/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "installCommand": "npm install",
-        "buildCommand": "npm run build",
+        "installCommand": "npm run install:client",
+        "buildCommand": "npm run client:build",
         "outputDirectory": "dist"
       }
     }
@@ -21,8 +21,8 @@
       "dest": "server/api/index.ts"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "src": "/img/(.*)",
+      "dest": "/client/public/img/$1"
     },
     {
       "src": "/health",
@@ -30,7 +30,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "client/$1"
+      "dest": "/client/$1"
     }
   ],
   "env": {

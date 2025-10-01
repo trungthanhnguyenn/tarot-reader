@@ -29,7 +29,7 @@ const drawCards = (cards: TarotCard[]): DrawnCard[] => {
 
   return selected.map(card => ({
     name: card.name,
-    imageUrl: card.image,
+    imageUrl: `/img/${card.image.split('/').pop()}`, // Convert to /img/filename.png
     isReversed: Math.random() < 0.5,
     keywords: card.keywords,
     upright: card.upright,
@@ -46,7 +46,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   });
 
-  if (req.url === '/health') {
+  // Handle health check
+  if (req.url?.includes('/health')) {
     return res.status(200).json({ 
       status: 'OK', 
       timestamp: new Date().toISOString(),
@@ -54,7 +55,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   }
 
-  if (req.method === 'POST' && req.url === '/api/tarot') {
+  // Handle tarot API (remove /api prefix since it's already routed)
+  if (req.method === 'POST' && (req.url === '/api/tarot' || req.url === '/tarot')) {
     try {
       const { name, dob }: TarotRequest = req.body;
 

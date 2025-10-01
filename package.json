@@ -2,7 +2,6 @@
   "name": "tarot-reader",
   "version": "1.0.0",
   "description": "Online Tarot Card Reading Web Application",
-  "main": "server/dist/index.js",
   "scripts": {
     "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
     "client:dev": "cd client && npm run dev",
@@ -29,7 +28,7 @@
     "nodejs",
     "gemini"
   ],
-  "author": "Tarot Reader Team",
+  "author": "trungthanhnguyenn",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
