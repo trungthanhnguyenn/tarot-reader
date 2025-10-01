@@ -21,12 +21,12 @@
       "dest": "server/src/index.ts"
     },
     {
-      "src": "/img/(.*)",
-      "dest": "/client/public/img/$1"
-    },
-    {
       "src": "/health",
       "dest": "server/src/index.ts"
+    },
+    {
+      "src": "/img/(.*)",
+      "dest": "/img/$1"
     },
     {
       "src": "/(.*)",
