@@ -2,15 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/api/index.ts",
+      "src": "server/src/index.ts",
       "use": "@vercel/node"
     },
     {
       "src": "client/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "installCommand": "npm run install:client",
-        "buildCommand": "npm run client:build",
+        "installCommand": "npm install",
+        "buildCommand": "npm run build",
         "outputDirectory": "dist"
       }
     }
@@ -18,7 +18,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "server/api/index.ts"
+      "dest": "server/src/index.ts"
     },
     {
       "src": "/img/(.*)",
@@ -26,7 +26,7 @@
     },
     {
       "src": "/health",
-      "dest": "server/api/index.ts"
+      "dest": "server/src/index.ts"
     },
     {
       "src": "/(.*)",
@@ -35,10 +35,5 @@
   ],
   "env": {
     "NODE_ENV": "production"
-  },
-  "functions": {
-    "server/api/index.ts": {
-      "maxDuration": 30
-    }
   }
 }
