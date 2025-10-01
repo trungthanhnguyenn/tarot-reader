@@ -30,6 +30,9 @@
   ],
   "author": "trungthanhnguyenn",
   "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
