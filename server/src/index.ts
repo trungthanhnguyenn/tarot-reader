@@ -5,14 +5,18 @@ import dotenv from 'dotenv';
 import tarotRoutes from './routes/tarot';
 
 // Load environment variables
-dotenv.config({ path: path.join(__dirname, '../../.env') });
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:5173',
+    process.env.CLIENT_URL || ''
+  ].filter(Boolean),
   credentials: true,
 }));
 
@@ -60,22 +64,24 @@ app.use((err: Error, _req: express.Request, res: express.Response) => {
   });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`🔮 Tarot Reader API ready!`);
-  
-  if (process.env.NODE_ENV !== 'production') {
+// Start server (only for local development)
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server is running on port ${PORT}`);
+    console.log(`🔮 Tarot Reader API ready!`);
     console.log(`🌐 Client dev server: http://localhost:3000`);
     console.log(`📡 API endpoint: http://localhost:${PORT}/api`);
-  }
-});
+  });
+  
+  // Graceful shutdown for local development
+  process.on('SIGTERM', () => {
+    console.log('SIGTERM signal received: closing HTTP server');
+    process.exit(0);
+  });
+}
 
-// Graceful shutdown
-process.on('SIGTERM', () => {
-  console.log('SIGTERM signal received: closing HTTP server');
-  process.exit(0);
-});
+// Export for Vercel
+export default app;
 
 process.on('SIGINT', () => {
   console.log('SIGINT signal received: closing HTTP server');
