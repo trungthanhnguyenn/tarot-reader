@@ -18,8 +18,9 @@ function App() {
     try {
       const response = await axios.post('/api/tarot', { name, dob });
       setTarotReading(response.data.data);
-    } catch (err: any) {
-      setError(err.response?.data?.error || 'An unknown error occurred.');
+    } catch (err: unknown) {
+      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+      setError(errorMessage);
     }
 
     setIsLoading(false);
