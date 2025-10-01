@@ -6,10 +6,10 @@ class GeminiService {
   private model: any;
 
   constructor() {
-    const apiKey = process.env.GEMINI_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
     
     if (!apiKey) {
-      throw new Error('GEMINI_KEY environment variable is required');
+      throw new Error('GEMINI_API_KEY environment variable is required');
     }
 
     this.genAI = new GoogleGenerativeAI(apiKey);
