@@ -13,6 +13,9 @@ export interface DrawnCard {
   imageUrl: string;
   isReversed: boolean;
   keywords: string[];
+  upright?: string;
+  reversed?: string;
+  vietnamese?: string;
 }
 
 export interface TarotReading {

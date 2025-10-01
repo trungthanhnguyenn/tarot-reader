@@ -6,7 +6,7 @@
     "keywords": ["khởi đầu", "ngây thơ", "tiềm năng"],
     "upright": "Một khởi đầu mới đầy tiềm năng đang chờ đón bạn.",
     "reversed": "Sự liều lĩnh thiếu suy nghĩ có thể dẫn đến rắc rối.",
-    "image": "data/img/rws/the-fool.png"
+    "image": "/img/rws/the-fool.png"
   },
   {
     "id": "rws-01",
@@ -15,7 +15,7 @@
     "keywords": ["sáng tạo", "ý chí", "kỹ năng"],
     "upright": "Bạn có mọi nguồn lực để biến ý tưởng thành hiện thực.",
     "reversed": "Lãng phí tiềm năng hoặc thiếu tập trung vào mục tiêu.",
-    "image": "data/img/rws/the-magician.png"
+    "image": "/img/rws/the-magician.png"
   },
   {
     "id": "rws-02",
@@ -24,7 +24,7 @@
     "keywords": ["trực giác", "bí ẩn", "tiềm thức"],
     "upright": "Hãy tin vào trực giác và những điều chưa được tiết lộ.",
     "reversed": "Bí mật bị che giấu hoặc bỏ qua linh cảm bên trong.",
-    "image": "data/img/rws/the-high-priestess.png"
+    "image": "/img/rws/the-high-priestess.png"
   },
   {
     "id": "rws-03",
@@ -33,7 +33,7 @@
     "keywords": ["nuôi dưỡng", "phong phú", "sáng tạo"],
     "upright": "Sự đủ đầy, sáng tạo và nuôi dưỡng đang phát triển mạnh mẽ.",
     "reversed": "Sự trì trệ, phụ thuộc hoặc bế tắc trong sáng tạo.",
-    "image": "data/img/rws/the-empress.png"
+    "image": "/img/rws/the-empress.png"
   },
   {
     "id": "rws-04",
@@ -42,7 +42,7 @@
     "keywords": ["quyền lực", "cấu trúc", "kiểm soát"],
     "upright": "Bạn đang nắm quyền kiểm soát tình hình bằng sự ổn định.",
     "reversed": "Sự lạm dụng quyền lực, cứng nhắc hoặc thiếu kỷ luật.",
-    "image": "data/img/rws/iv-the-emperor.png"
+    "image": "/img/rws/iv-the-emperor.png"
   },
   {
     "id": "rws-05",
@@ -51,7 +51,7 @@
     "keywords": ["truyền thống", "niềm tin", "hướng dẫn"],
     "upright": "Hãy tìm kiếm sự khôn ngoan từ các giá trị truyền thống.",
     "reversed": "Phá vỡ quy tắc hoặc thách thức các niềm tin cũ.",
-    "image": "data/img/rws/v-the-hierophant.png"
+    "image": "/img/rws/v-the-hierophant.png"
   },
   {
     "id": "rws-06",
@@ -60,7 +60,7 @@
     "keywords": ["lựa chọn", "hòa hợp", "mối quan hệ"],
     "upright": "Một mối quan hệ quan trọng hoặc một lựa chọn lớn.",
     "reversed": "Mâu thuẫn, mất kết nối hoặc một quyết định sai lầm.",
-    "image": "data/img/rws/vi-the-lovers.png"
+    "image": "/img/rws/vi-the-lovers.png"
   },
   {
     "id": "rws-07",
@@ -69,7 +69,7 @@
     "keywords": ["chiến thắng", "quyết tâm", "kiểm soát"],
     "upright": "Sự quyết tâm và ý chí sẽ dẫn bạn đến thành công.",
     "reversed": "Mất phương hướng, thiếu kiểm soát và trở ngại.",
-    "image": "data/img/rws/vii-the-chariot.png"
+    "image": "/img/rws/vii-the-chariot.png"
   },
   {
     "id": "rws-08",
@@ -78,7 +78,7 @@
     "keywords": ["can đảm", "kiên nhẫn", "lòng trắc ẩn"],
     "upright": "Sức mạnh nội tại và lòng dũng cảm giúp bạn vượt qua thử thách.",
     "reversed": "Nghi ngờ bản thân, yếu đuối hoặc thiếu tự chủ.",
-    "image": "data/img/rws/viii-strength.png"
+    "image": "/img/rws/viii-strength.png"
   },
   {
     "id": "rws-09",
@@ -87,7 +87,7 @@
     "keywords": ["tự vấn", "cô tịch", "trí tuệ"],
     "upright": "Đây là lúc để tìm kiếm câu trả lời từ bên trong.",
     "reversed": "Cảm giác cô lập hoặc tránh né việc tự soi chiếu.",
-    "image": "data/img/rws/ix-the-hermit.png"
+    "image": "/img/rws/ix-the-hermit.png"
   },
   {
     "id": "rws-10",
@@ -96,7 +96,7 @@
     "keywords": ["vận may", "thay đổi", "chu kỳ"],
     "upright": "Sự thay đổi bất ngờ của số phận đang đến.",
     "reversed": "Vận rủi, sự thay đổi không mong muốn và mất kiểm soát.",
-    "image": "data/img/rws/x-wheel-of-fortune.png"
+    "image": "/img/rws/x-wheel-of-fortune.png"
   },
   {
     "id": "rws-11",
@@ -105,7 +105,7 @@
     "keywords": ["công bằng", "sự thật", "nguyên nhân-kết quả"],
     "upright": "Sự thật sẽ được phơi bày và công lý sẽ được thực thi.",
     "reversed": "Bất công, thiên vị hoặc né tránh trách nhiệm.",
-    "image": "data/img/rws/xi-justice.png"
+    "image": "/img/rws/xi-justice.png"
   },
   {
     "id": "rws-12",
@@ -114,7 +114,7 @@
     "keywords": ["hy sinh", "góc nhìn mới", "chờ đợi"],
     "upright": "Hãy tạm dừng và nhìn nhận mọi việc theo một hướng khác.",
     "reversed": "Sự hy sinh vô ích hoặc bế tắc không lối thoát.",
-    "image": "data/img/rws/xii-the-hanged-man.png"
+    "image": "/img/rws/xii-the-hanged-man.png"
   },
   {
     "id": "rws-13",
@@ -123,7 +123,7 @@
     "keywords": ["kết thúc", "chuyển hóa", "thay đổi"],
     "upright": "Một sự kết thúc cần thiết để mở đường cho khởi đầu mới.",
     "reversed": "Chống lại sự thay đổi không thể tránh khỏi và trì trệ.",
-    "image": "data/img/rws/xiii-death.png"
+    "image": "/img/rws/xiii-death.png"
   },
   {
     "id": "rws-14",
@@ -132,7 +132,7 @@
     "keywords": ["cân bằng", "kiên nhẫn", "hòa hợp"],
     "upright": "Tìm kiếm sự cân bằng và hài hòa trong mọi khía cạnh.",
     "reversed": "Mất cân bằng, thái quá hoặc xung đột nội tâm.",
-    "image": "data/img/rws/xiv-temperance.png"
+    "image": "/img/rws/xiv-temperance.png"
   },
   {
     "id": "rws-15",
@@ -141,7 +141,7 @@
     "keywords": ["cám dỗ", "trói buộc", "vật chất"],
     "upright": "Bạn đang bị trói buộc bởi những ham muốn vật chất.",
     "reversed": "Phá vỡ xiềng xích và nhận ra sự tự do của mình.",
-    "image": "data/img/rws/xv-the-devil.png"
+    "image": "/img/rws/xv-the-devil.png"
   },
   {
     "id": "rws-16",
@@ -150,7 +150,7 @@
     "keywords": ["sụp đổ", "thay đổi đột ngột", "sự thật"],
     "upright": "Một sự kiện đột ngột phá vỡ cấu trúc hiện tại.",
     "reversed": "Tránh né thảm họa hoặc sợ hãi sự thay đổi cần thiết.",
-    "image": "data/img/rws/xvi-the-tower.png"
+    "image": "/img/rws/xvi-the-tower.png"
   },
   {
     "id": "rws-17",
@@ -159,7 +159,7 @@
     "keywords": ["hy vọng", "niềm tin", "cảm hứng"],
     "upright": "Hãy giữ vững niềm tin và hy vọng vào tương lai.",
     "reversed": "Mất hy vọng, tuyệt vọng hoặc thiếu niềm tin vào bản thân.",
-    "image": "data/img/rws/xvii-the-star.png"
+    "image": "/img/rws/xvii-the-star.png"
   },
   {
     "id": "rws-18",
@@ -168,7 +168,7 @@
     "keywords": ["ảo ảnh", "sợ hãi", "trực giác"],
     "upright": "Đối mặt với nỗi sợ và những điều không chắc chắn.",
     "reversed": "Sự thật được hé lộ, giải tỏa nỗi sợ và nhầm lẫn.",
-    "image": "data/img/rws/xviii-the-moon.png"
+    "image": "/img/rws/xviii-the-moon.png"
   },
   {
     "id": "rws-19",
@@ -177,7 +177,7 @@
     "keywords": ["niềm vui", "thành công", "sự rõ ràng"],
     "upright": "Thành công, hạnh phúc và sự rõ ràng đang chiếu rọi.",
     "reversed": "Sự lạc quan thái quá hoặc tạm thời không thấy niềm vui.",
-    "image": "data/img/rws/xix-the-sun.png"
+    "image": "/img/rws/xix-the-sun.png"
   },
   {
     "id": "rws-20",
@@ -186,7 +186,7 @@
     "keywords": ["thức tỉnh", "tái sinh", "sám hối"],
     "upright": "Bạn đang được kêu gọi để đánh giá lại quá khứ.",
     "reversed": "Tự phán xét quá khắt khe hoặc bỏ lỡ cơ hội.",
-    "image": "data/img/rws/xx-judgement.png"
+    "image": "/img/rws/xx-judgement.png"
   },
   {
     "id": "rws-21",
@@ -195,7 +195,7 @@
     "keywords": ["hoàn thành", "trọn vẹn", "thành tựu"],
     "upright": "Hoàn thành một chu kỳ quan trọng và đạt được thành tựu.",
     "reversed": "Cảm giác chưa trọn vẹn hoặc có việc còn dang dở.",
-    "image": "data/img/rws/xxi-the-world.png"
+    "image": "/img/rws/xxi-the-world.png"
   },
   {
     "id": "rws-22",
@@ -204,7 +204,7 @@
     "keywords": ["tiềm năng", "cảm hứng", "sáng tạo"],
     "upright": "Một tia lửa sáng tạo và cơ hội mới đang đến.",
     "reversed": "Thiếu động lực, trì hoãn hoặc khởi đầu không thuận lợi.",
-    "image": "data/img/rws/ace-of-wands.png"
+    "image": "/img/rws/ace-of-wands.png"
   },
   {
     "id": "rws-23",
@@ -213,7 +213,7 @@
     "keywords": ["lên kế hoạch", "quyết định", "tầm nhìn"],
     "upright": "Bạn đang lên kế hoạch cho tương lai và khám phá tiềm năng.",
     "reversed": "Sợ hãi điều chưa biết hoặc kế hoạch thiếu tầm nhìn.",
-    "image": "data/img/rws/two-of-wands.png"
+    "image": "/img/rws/two-of-wands.png"
   },
   {
     "id": "rws-24",
@@ -222,7 +222,7 @@
     "keywords": ["tiến triển", "mở rộng", "chờ đợi"],
     "upright": "Thành quả ban đầu đang đến sau những nỗ lực.",
     "reversed": "Sự chậm trễ, trở ngại và thiếu tầm nhìn xa.",
-    "image": "data/img/rws/three-of-wands.png"
+    "image": "/img/rws/three-of-wands.png"
   },
   {
     "id": "rws-25",
@@ -231,7 +231,7 @@
     "keywords": ["ăn mừng", "hòa hợp", "gia đình"],
     "upright": "Thời gian ăn mừng những thành tựu và sự hòa hợp.",
     "reversed": "Xung đột trong gia đình hoặc thiếu sự ổn định.",
-    "image": "data/img/rws/four-of-wands.png"
+    "image": "/img/rws/four-of-wands.png"
   },
   {
     "id": "rws-26",
@@ -240,7 +240,7 @@
     "keywords": ["xung đột", "cạnh tranh", "bất đồng"],
     "upright": "Những xung đột nhỏ và sự cạnh tranh đang diễn ra.",
     "reversed": "Tránh né xung đột hoặc tìm thấy giải pháp hòa bình.",
-    "image": "data/img/rws/five-of-wands.png"
+    "image": "/img/rws/five-of-wands.png"
   },
   {
     "id": "rws-27",
@@ -249,7 +249,7 @@
     "keywords": ["chiến thắng", "công nhận", "tự hào"],
     "upright": "Thành công và sự công nhận của công chúng đang đến.",
     "reversed": "Kiêu ngạo, thất bại hoặc không được ghi nhận.",
-    "image": "data/img/rws/six-of-wands.png"
+    "image": "/img/rws/six-of-wands.png"
   },
   {
     "id": "rws-28",
@@ -258,7 +258,7 @@
     "keywords": ["thử thách", "bảo vệ", "kiên định"],
     "upright": "Hãy bảo vệ vị trí và niềm tin của bạn trước thử thách.",
     "reversed": "Cảm thấy quá tải, bỏ cuộc hoặc thỏa hiệp quá mức.",
-    "image": "data/img/rws/seven-of-wands.png"
+    "image": "/img/rws/seven-of-wands.png"
   },
   {
     "id": "rws-29",
@@ -267,7 +267,7 @@
     "keywords": ["hành động nhanh", "tin tức", "tiến triển"],
     "upright": "Mọi thứ đang diễn ra nhanh chóng, hãy sẵn sàng hành động.",
     "reversed": "Sự chậm trễ, thất vọng hoặc tin tức không mong muốn.",
-    "image": "data/img/rws/eight-of-wands.png"
+    "image": "/img/rws/eight-of-wands.png"
   },
   {
     "id": "rws-30",
@@ -276,7 +276,7 @@
     "keywords": ["kiên cường", "phòng thủ", "bền bỉ"],
     "upright": "Dù mệt mỏi nhưng hãy kiên trì đến cùng.",
     "reversed": "Cảm giác không an toàn, kiệt sức hoặc bỏ cuộc.",
-    "image": "data/img/rws/nine-of-wands.png"
+    "image": "/img/rws/nine-of-wands.png"
   },
   {
     "id": "rws-31",
@@ -285,7 +285,7 @@
     "keywords": ["gánh nặng", "trách nhiệm", "áp lực"],
     "upright": "Bạn đang gánh vác quá nhiều trách nhiệm và áp lực.",
     "reversed": "San sẻ gánh nặng hoặc từ bỏ những trách nhiệm không cần thiết.",
-    "image": "data/img/rws/ten-of-wands.png"
+    "image": "/img/rws/ten-of-wands.png"
   },
   {
     "id": "rws-32",
@@ -294,7 +294,7 @@
     "keywords": ["nhiệt huyết", "khám phá", "tin vui"],
     "upright": "Hãy đón nhận những ý tưởng mới với sự nhiệt tình.",
     "reversed": "Thiếu định hướng hoặc những ý tưởng chưa được phát triển.",
-    "image": "data/img/rws/page-of-wands.png"
+    "image": "/img/rws/page-of-wands.png"
   },
   {
     "id": "rws-33",
@@ -303,7 +303,7 @@
     "keywords": ["năng lượng", "đam mê", "hành động"],
     "upright": "Hành động một cách táo bạo và đầy đam mê.",
     "reversed": "Sự bốc đồng, thiếu kiên nhẫn hoặc hành động vội vàng.",
-    "image": "data/img/rws/knight-of-wands.png"
+    "image": "/img/rws/knight-of-wands.png"
   },
   {
     "id": "rws-34",
@@ -312,7 +312,7 @@
     "keywords": ["tự tin", "quyến rũ", "độc lập"],
     "upright": "Hãy thể hiện sự tự tin, ấm áp và độc lập của bạn.",
     "reversed": "Sự ghen tị, thiếu tự tin hoặc đòi hỏi quá mức.",
-    "image": "data/img/rws/queen-of-wands.png"
+    "image": "/img/rws/queen-of-wands.png"
   },
   {
     "id": "rws-35",
@@ -321,7 +321,7 @@
     "keywords": ["lãnh đạo", "tầm nhìn", "truyền cảm hứng"],
     "upright": "Bạn là một nhà lãnh đạo bẩm sinh với tầm nhìn xa.",
     "reversed": "Sự độc đoán, thiếu kiên nhẫn hoặc kỳ vọng không thực tế.",
-    "image": "data/img/rws/king-of-wands.png"
+    "image": "/img/rws/king-of-wands.png"
   },
   {
     "id": "rws-36",
@@ -330,7 +330,7 @@
     "keywords": ["tình yêu", "cảm xúc", "sáng tạo"],
     "upright": "Một khởi đầu mới về tình cảm hoặc sự sáng tạo.",
     "reversed": "Cảm xúc bị kìm nén hoặc cơ hội tình cảm bị bỏ lỡ.",
-    "image": "data/img/rws/ace-of-cups.png"
+    "image": "/img/rws/ace-of-cups.png"
   },
   {
     "id": "rws-37",
@@ -339,7 +339,7 @@
     "keywords": ["kết nối", "quan hệ đối tác", "hòa hợp"],
     "upright": "Sự kết nối sâu sắc và hợp tác hài hòa đang hình thành.",
     "reversed": "Mất kết nối, bất đồng hoặc sự chia ly.",
-    "image": "data/img/rws/two-of-cups.png"
+    "image": "/img/rws/two-of-cups.png"
   },
   {
     "id": "rws-38",
@@ -348,7 +348,7 @@
     "keywords": ["hội ngộ", "tình bạn", "ăn mừng"],
     "upright": "Thời gian để ăn mừng cùng bạn bè và cộng đồng.",
     "reversed": "Sự cô lập, ngồi lê đôi mách hoặc tiệc tàn.",
-    "image": "data/img/rws/three-of-cups.png"
+    "image": "/img/rws/three-of-cups.png"
   },
   {
     "id": "rws-39",
@@ -357,7 +357,7 @@
     "keywords": ["trầm tư", "thờ ơ", "cơ hội"],
     "upright": "Bạn đang bỏ lỡ những cơ hội mới vì quá tập trung vào bản thân.",
     "reversed": "Sẵn sàng đón nhận cơ hội mới và thoát khỏi sự trì trệ.",
-    "image": "data/img/rws/four-of-cups.png"
+    "image": "/img/rws/four-of-cups.png"
   },
   {
     "id": "rws-40",
@@ -366,7 +366,7 @@
     "keywords": ["mất mát", "hối tiếc", "buồn bã"],
     "upright": "Tập trung vào mất mát mà quên đi những gì còn lại.",
     "reversed": "Chấp nhận quá khứ và sẵn sàng bước tiếp về phía trước.",
-    "image": "data/img/rws/five-of-cups.png"
+    "image": "/img/rws/five-of-cups.png"
   },
   {
     "id": "rws-41",
@@ -375,7 +375,7 @@
     "keywords": ["hoài niệm", "ngây thơ", "quà tặng"],
     "upright": "Hồi tưởng về quá khứ hoặc nhận được một món quà.",
     "reversed": "Mắc kẹt trong quá khứ hoặc từ bỏ sự ngây thơ.",
-    "image": "data/img/rws/six-of-cups.png"
+    "image": "/img/rws/six-of-cups.png"
   },
   {
     "id": "rws-42",
@@ -384,7 +384,7 @@
     "keywords": ["lựa chọn", "ảo tưởng", "mơ mộng"],
     "upright": "Có nhiều lựa chọn nhưng cần cẩn thận với ảo tưởng.",
     "reversed": "Sự rõ ràng, quyết tâm và lựa chọn thực tế.",
-    "image": "data/img/rws/seven-of-cups.png"
+    "image": "/img/rws/seven-of-cups.png"
   },
   {
     "id": "rws-43",
@@ -393,7 +393,7 @@
     "keywords": ["từ bỏ", "tìm kiếm", "thay đổi"],
     "upright": "Rời bỏ một tình huống không còn phù hợp để tìm kiếm điều tốt hơn.",
     "reversed": "Sợ hãi thay đổi hoặc níu kéo một điều gì đó.",
-    "image": "data/img/rws/eight-of-cups.png"
+    "image": "/img/rws/eight-of-cups.png"
   },
   {
     "id": "rws-44",
@@ -402,7 +402,7 @@
     "keywords": ["ước nguyện", "hài lòng", "thỏa mãn"],
     "upright": "Điều ước của bạn trở thành hiện thực, tận hưởng sự hài lòng.",
     "reversed": "Sự thất vọng hoặc không đạt được điều mong muốn.",
-    "image": "data/img/rws/nine-of-cups.png"
+    "image": "/img/rws/nine-of-cups.png"
   },
   {
     "id": "rws-45",
@@ -411,7 +411,7 @@
     "keywords": ["hạnh phúc", "gia đình", "viên mãn"],
     "upright": "Hạnh phúc gia đình và sự viên mãn về mặt cảm xúc.",
     "reversed": "Mối quan hệ rạn nứt hoặc mục tiêu gia đình không đạt được.",
-    "image": "data/img/rws/ten-of-cups.png"
+    "image": "/img/rws/ten-of-cups.png"
   },
   {
     "id": "rws-46",
@@ -420,7 +420,7 @@
     "keywords": ["sáng tạo", "trực giác", "thông điệp"],
     "upright": "Một thông điệp tình cảm hoặc một cơ hội sáng tạo.",
     "reversed": "Sự non nớt về cảm xúc hoặc cơ hội sáng tạo bị chặn lại.",
-    "image": "data/img/rws/page-of-cups.png"
+    "image": "/img/rws/page-of-cups.png"
   },
   {
     "id": "rws-47",
@@ -429,7 +429,7 @@
     "keywords": ["lãng mạn", "duy tâm", "quyến rũ"],
     "upright": "Hành động theo trái tim và theo đuổi sự lãng mạn.",
     "reversed": "Sự thất thường, tâm trạng thất thường hoặc ảo tưởng.",
-    "image": "data/img/rws/knight-of-cups.png"
+    "image": "/img/rws/knight-of-cups.png"
   },
   {
     "id": "rws-48",
@@ -438,7 +438,7 @@
     "keywords": ["trực giác", "thấu cảm", "chăm sóc"],
     "upright": "Hãy lắng nghe trực giác và thể hiện lòng trắc ẩn.",
     "reversed": "Cảm xúc bất ổn hoặc trở nên quá phụ thuộc.",
-    "image": "data/img/rws/queen-of-cups.png"
+    "image": "/img/rws/queen-of-cups.png"
   },
   {
     "id": "rws-49",
@@ -447,7 +447,7 @@
     "keywords": ["trưởng thành", "ngoại giao", "kiểm soát cảm xúc"],
     "upright": "Sự cân bằng giữa lý trí và tình cảm, kiểm soát cảm xúc tốt.",
     "reversed": "Thao túng tình cảm hoặc cảm xúc không ổn định.",
-    "image": "data/img/rws/king-of-cups.png"
+    "image": "/img/rws/king-of-cups.png"
   },
   {
     "id": "rws-50",
@@ -456,7 +456,7 @@
     "keywords": ["sự thật", "rõ ràng", "đột phá"],
     "upright": "Một ý tưởng đột phá hoặc sự thật được phơi bày.",
     "reversed": "Sự nhầm lẫn, thiếu rõ ràng hoặc quyết định sai lầm.",
-    "image": "data/img/rws/ace-of-swords.png"
+    "image": "/img/rws/ace-of-swords.png"
   },
   {
     "id": "rws-51",
@@ -465,7 +465,7 @@
     "keywords": ["bế tắc", "lựa chọn khó khăn", "tránh né"],
     "upright": "Bạn đang đối mặt với một quyết định khó khăn.",
     "reversed": "Sự thiếu quyết đoán hoặc đối mặt với sự thật.",
-    "image": "data/img/rws/two-of-swords.png"
+    "image": "/img/rws/two-of-swords.png"
   },
   {
     "id": "rws-52",
@@ -474,7 +474,7 @@
     "keywords": ["đau lòng", "buồn bã", "sự thật đau đớn"],
     "upright": "Sự thật đau lòng mang đến nỗi buồn và sự chia ly.",
     "reversed": "Quá trình chữa lành, tha thứ và vượt qua nỗi đau.",
-    "image": "data/img/rws/three-of-swords.png"
+    "image": "/img/rws/three-of-swords.png"
   },
   {
     "id": "rws-53",
@@ -483,7 +483,7 @@
     "keywords": ["nghỉ ngơi", "hồi phục", "suy ngẫm"],
     "upright": "Đây là lúc để nghỉ ngơi và phục hồi năng lượng.",
     "reversed": "Sự kiệt sức hoặc tránh né việc nghỉ ngơi cần thiết.",
-    "image": "data/img/rws/four-of-swords.png"
+    "image": "/img/rws/four-of-swords.png"
   },
   {
     "id": "rws-54",
@@ -492,7 +492,7 @@
     "keywords": ["xung đột", "thất bại", "tham vọng"],
     "upright": "Chiến thắng bằng mọi giá có thể dẫn đến sự cô lập.",
     "reversed": "Hòa giải, chấp nhận thất bại và buông bỏ xung đột.",
-    "image": "data/img/rws/five-of-swords.png"
+    "image": "/img/rws/five-of-swords.png"
   },
   {
     "id": "rws-55",
@@ -501,7 +501,7 @@
     "keywords": ["chuyển tiếp", "bỏ lại phía sau", "hành trình"],
     "upright": "Rời bỏ quá khứ đau buồn để hướng tới tương lai bình yên hơn.",
     "reversed": "Cảm thấy bế tắc hoặc không thể thoát khỏi quá khứ.",
-    "image": "data/img/rws/six-of-swords.png"
+    "image": "/img/rws/six-of-swords.png"
   },
   {
     "id": "rws-56",
@@ -510,7 +510,7 @@
     "keywords": ["lừa dối", "chiến lược", "hành động lén lút"],
     "upright": "Hành động lén lút hoặc cố gắng thoát khỏi một tình huống.",
     "reversed": "Thú nhận, đối mặt với sự thật hoặc bị phát hiện.",
-    "image": "data/img/rws/seven-of-swords.png"
+    "image": "/img/rws/seven-of-swords.png"
   },
   {
     "id": "rws-57",
@@ -519,7 +519,7 @@
     "keywords": ["bị giới hạn", "bất lực", "tự trói buộc"],
     "upright": "Bạn cảm thấy bị mắc kẹt bởi suy nghĩ của chính mình.",
     "reversed": "Nhận ra sự tự do và tìm thấy lối thoát.",
-    "image": "data/img/rws/eight-of-swords.png"
+    "image": "/img/rws/eight-of-swords.png"
   },
   {
     "id": "rws-58",
@@ -528,7 +528,7 @@
     "keywords": ["lo lắng", "sợ hãi", "ác mộng"],
     "upright": "Nỗi lo lắng và sợ hãi đang ám ảnh tâm trí bạn.",
     "reversed": "Vượt qua nỗi sợ và tìm kiếm sự giúp đỡ.",
-    "image": "data/img/rws/nine-of-swords.png"
+    "image": "/img/rws/nine-of-swords.png"
   },
   {
     "id": "rws-59",
@@ -537,7 +537,7 @@
     "keywords": ["kết thúc đau đớn", "thất bại", "bị phản bội"],
     "upright": "Một kết thúc đau đớn nhưng cần thiết, chạm đến đáy.",
     "reversed": "Sự phục hồi sau mất mát, quá trình chữa lành bắt đầu.",
-    "image": "data/img/rws/ten-of-swords.png"
+    "image": "/img/rws/ten-of-swords.png"
   },
   {
     "id": "rws-60",
@@ -546,7 +546,7 @@
     "keywords": ["tò mò", "năng lượng", "tin tức"],
     "upright": "Đầy năng lượng để tìm kiếm sự thật và học hỏi.",
     "reversed": "Sự thiếu suy nghĩ, nói lời tổn thương hoặc tin đồn.",
-    "image": "data/img/rws/page-of-swords.png"
+    "image": "/img/rws/page-of-swords.png"
   },
   {
     "id": "rws-61",
@@ -555,7 +555,7 @@
     "keywords": ["tham vọng", "quyết đoán", "hành động nhanh"],
     "upright": "Hành động nhanh chóng và quyết đoán để đạt được mục tiêu.",
     "reversed": "Sự liều lĩnh, thiếu cân nhắc và hành động hung hăng.",
-    "image": "data/img/rws/knight-of-swords.png"
+    "image": "/img/rws/knight-of-swords.png"
   },
   {
     "id": "rws-62",
@@ -564,7 +564,7 @@
     "keywords": ["độc lập", "thông minh", "rõ ràng"],
     "upright": "Sử dụng trí tuệ và sự rõ ràng để đưa ra quyết định.",
     "reversed": "Sự lạnh lùng, phán xét hoặc thiếu sự đồng cảm.",
-    "image": "data/img/rws/queen-of-swords.png"
+    "image": "/img/rws/queen-of-swords.png"
   },
   {
     "id": "rws-63",
@@ -573,7 +573,7 @@
     "keywords": ["quyền lực trí tuệ", "sự thật", "công bằng"],
     "upright": "Sử dụng trí tuệ và quyền lực để đưa ra phán quyết công bằng.",
     "reversed": "Lạm dụng quyền lực, sự độc đoán hoặc phán xét sai lầm.",
-    "image": "data/img/rws/king-of-swords.png"
+    "image": "/img/rws/king-of-swords.png"
   },
   {
     "id": "rws-64",
@@ -582,7 +582,7 @@
     "keywords": ["cơ hội", "thịnh vượng", "hiện thực hóa"],
     "upright": "Một cơ hội mới về tài chính hoặc sự nghiệp.",
     "reversed": "Bỏ lỡ cơ hội hoặc quyết định tài chính kém.",
-    "image": "data/img/rws/ace-of-pentacles.png"
+    "image": "/img/rws/ace-of-pentacles.png"
   },
   {
     "id": "rws-65",
@@ -591,7 +591,7 @@
     "keywords": ["cân bằng", "thích nghi", "ưu tiên"],
     "upright": "Bạn đang cố gắng cân bằng nhiều khía cạnh trong cuộc sống.",
     "reversed": "Mất cân bằng, quản lý kém và quá tải.",
-    "image": "data/img/rws/two-of-pentacles.png"
+    "image": "/img/rws/two-of-pentacles.png"
   },
   {
     "id": "rws-66",
@@ -600,7 +600,7 @@
     "keywords": ["hợp tác", "làm việc nhóm", "kỹ năng"],
     "upright": "Sự hợp tác hiệu quả và thành công nhờ làm việc nhóm.",
     "reversed": "Thiếu sự hợp tác hoặc làm việc kém chất lượng.",
-    "image": "data/img/rws/three-of-pentacles.png"
+    "image": "/img/rws/three-of-pentacles.png"
   },
   {
     "id": "rws-67",
@@ -609,7 +609,7 @@
     "keywords": ["an toàn", "tích trữ", "kiểm soát"],
     "upright": "Bạn đang cố gắng giữ chặt tài sản và sự an toàn.",
     "reversed": "Sự keo kiệt hoặc nỗi sợ hãi mất mát vật chất.",
-    "image": "data/img/rws/four-of-pentacles.png"
+    "image": "/img/rws/four-of-pentacles.png"
   },
   {
     "id": "rws-68",
@@ -618,7 +618,7 @@
     "keywords": ["khó khăn tài chính", "cô lập", "nghèo đói"],
     "upright": "Đối mặt với khó khăn về tài chính và cảm giác bị bỏ rơi.",
     "reversed": "Sự phục hồi sau khó khăn và tìm thấy sự giúp đỡ.",
-    "image": "data/img/rws/five-of-pentacles.png"
+    "image": "/img/rws/five-of-pentacles.png"
   },
   {
     "id": "rws-69",
@@ -627,7 +627,7 @@
     "keywords": ["cho đi", "nhận lại", "hào phóng"],
     "upright": "Sự hào phóng, cho đi và nhận lại một cách công bằng.",
     "reversed": "Món nợ, sự phụ thuộc hoặc lòng tốt có toan tính.",
-    "image": "data/img/rws/six-of-pentacles.png"
+    "image": "/img/rws/six-of-pentacles.png"
   },
   {
     "id": "rws-70",
@@ -636,7 +636,7 @@
     "keywords": ["kiên nhẫn", "đánh giá", "thu hoạch"],
     "upright": "Đã đến lúc đánh giá thành quả lao động của bạn.",
     "reversed": "Thiếu kiên nhẫn hoặc đầu tư không mang lại kết quả.",
-    "image": "data/img/rws/seven-of-pentacles.png"
+    "image": "/img/rws/seven-of-pentacles.png"
   },
   {
     "id": "rws-71",
@@ -645,7 +645,7 @@
     "keywords": ["chăm chỉ", "kỹ năng", "học hỏi"],
     "upright": "Tập trung vào việc rèn luyện kỹ năng và làm việc chăm chỉ.",
     "reversed": "Sự lười biếng, cẩu thả hoặc thiếu tham vọng.",
-    "image": "data/img/rws/eight-of-pentacles.png"
+    "image": "/img/rws/eight-of-pentacles.png"
   },
   {
     "id": "rws-72",
@@ -654,7 +654,7 @@
     "keywords": ["độc lập", "thành quả", "sang trọng"],
     "upright": "Tận hưởng thành quả từ sự nỗ lực và độc lập tài chính.",
     "reversed": "Sự phụ thuộc tài chính hoặc thành quả không như ý.",
-    "image": "data/img/rws/nine-of-pentacles.png"
+    "image": "/img/rws/nine-of-pentacles.png"
   },
   {
     "id": "rws-73",
@@ -663,7 +663,7 @@
     "keywords": ["gia tài", "di sản", "ổn định lâu dài"],
     "upright": "Sự giàu có, ổn định và di sản gia đình được đảm bảo.",
     "reversed": "Mất mát tài chính hoặc xung đột về tài sản gia đình.",
-    "image": "data/img/rws/ten-of-pentacles.png"
+    "image": "/img/rws/ten-of-pentacles.png"
   },
   {
     "id": "rws-74",
@@ -672,7 +672,7 @@
     "keywords": ["cơ hội", "chăm chỉ", "học hỏi"],
     "upright": "Một cơ hội mới để học hỏi và phát triển sự nghiệp.",
     "reversed": "Thiếu thực tế, lười biếng hoặc bỏ lỡ cơ hội.",
-    "image": "data/img/rws/page-of-pentacles.png"
+    "image": "/img/rws/page-of-pentacles.png"
   },
   {
     "id": "rws-75",
@@ -681,7 +681,7 @@
     "keywords": ["kiên định", "trách nhiệm", "chăm chỉ"],
     "upright": "Hãy làm việc một cách kiên định và có trách nhiệm.",
     "reversed": "Sự trì trệ, cứng nhắc hoặc thiếu kiên nhẫn.",
-    "image": "data/img/rws/knight-of-pentacles.png"
+    "image": "/img/rws/knight-of-pentacles.png"
   },
   {
     "id": "rws-76",
@@ -690,7 +690,7 @@
     "keywords": ["nuôi dưỡng", "thực tế", "ấm áp"],
     "upright": "Chăm sóc gia đình và công việc một cách thực tế.",
     "reversed": "Quá chú trọng vật chất hoặc xao nhãng gia đình.",
-    "image": "data/img/rws/queen-of-pentacles.png"
+    "image": "/img/rws/queen-of-pentacles.png"
   },
   {
     "id": "rws-77",
@@ -699,6 +699,6 @@
     "keywords": ["thành công", "thịnh vượng", "đáng tin cậy"],
     "upright": "Thành công tài chính và sự ổn định vững chắc.",
     "reversed": "Tham lam, không đáng tin cậy hoặc quản lý tài chính kém.",
-    "image": "data/img/rws/king-of-pentacles.png"
+    "image": "/img/rws/king-of-pentacles.png"
   }
 ]

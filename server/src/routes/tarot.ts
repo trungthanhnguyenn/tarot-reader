@@ -1,14 +1,26 @@
-import { Router, Request, Response } from 'express';
-import crypto from 'crypto';
-import Database from '../utils/db';
-import OpenAIService from '../utils/openai';
+import { Router } from 'express';
+import GeminiService from '../utils/gemini';
 import { TarotCard, DrawnCard, TarotRequest, DatabaseReading } from '../types';
 import { validateRequest } from '../middleware/validator';
-import allCards from '../../../cards.json';
+import allCards from '../../../assets/json/tarot_card_all.json';
 
 const router = Router();
-const db = new Database();
-const openai = new OpenAIService();
+
+// Use memory storage for Vercel serverless environment
+class MemoryDatabase {
+  private readings: Map<string, DatabaseReading> = new Map();
+
+  async getReading(id: string): Promise<DatabaseReading | null> {
+    return this.readings.get(id) || null;
+  }
+
+  async saveReading(reading: DatabaseReading): Promise<void> {
+    // Store in memory (will reset on function cold start)
+    this.readings.set(reading.id, reading);
+  }
+}
+
+const db = new MemoryDatabase();
 
 const drawCards = (cards: TarotCard[]): DrawnCard[] => {
   const shuffled = cards.sort(() => 0.5 - Math.random());
@@ -19,17 +31,22 @@ const drawCards = (cards: TarotCard[]): DrawnCard[] => {
     imageUrl: card.image,
     isReversed: Math.random() < 0.5,
     keywords: card.keywords,
+    upright: card.upright,
+    reversed: card.reversed,
+    vietnamese: card.vietnamese,
   }));
 };
 
-router.post('/tarot', validateRequest, async (req: Request, res: Response) => {
+router.post('/tarot', validateRequest, async (req: any, res: any) => {
   try {
     const { name, dob }: TarotRequest = req.body;
 
+    // Use simple hash for caching (crypto available in Vercel)
+    const crypto = require('crypto');
     const today = new Date().toISOString().split('T')[0];
     const hashKey = crypto.createHash('sha256').update(`${name}-${dob}-${today}`).digest('hex');
 
-    const cachedReading = await db.getReading(hashKey);
+    const cachedReading = await db?.getReading(hashKey);
 
     if (cachedReading) {
       const cachedCards: DrawnCard[] = JSON.parse(cachedReading.cards);
@@ -41,7 +58,8 @@ router.post('/tarot', validateRequest, async (req: Request, res: Response) => {
     }
 
     const drawnCards = drawCards(allCards as TarotCard[]);
-    const readingText = await openai.generateReading(name, dob, drawnCards);
+    const gemini = new GeminiService();
+    const readingText = await gemini.generateReading(name, dob, drawnCards);
 
     const newReading: DatabaseReading = {
       id: hashKey,
@@ -52,7 +70,7 @@ router.post('/tarot', validateRequest, async (req: Request, res: Response) => {
       reading: readingText,
     };
 
-    await db.saveReading(newReading);
+    await db?.saveReading(newReading);
 
     res.status(200).json({ 
       success: true,

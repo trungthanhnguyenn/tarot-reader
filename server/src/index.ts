@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import tarotRoutes from './routes/tarot';
 
 // Load environment variables
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, '../../.env') });
 
 const app = express();
 const PORT = process.env.PORT || 4000;

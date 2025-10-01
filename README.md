@@ -7,7 +7,7 @@
 *   **Frontend:** React, Vite, TypeScript, Tailwind CSS
 *   **Backend:** Node.js, Express, TypeScript
 *   **Database:** SQLite
-*   **LLM:** OpenAI GPT-3.5-turbo
+*   **LLM:** Google Gemini AI (Gemini 1.5 Flash - Free tier)
 *   **Deployment:** (Tùy chọn) Docker
 
 ## Cấu Trúc Repo
@@ -47,7 +47,12 @@ tarot-reader/
 3.  **Cấu hình biến môi trường:**
 
     *   Tạo file `.env` trong thư mục gốc của dự án.
-    *   Copy nội dung từ `.env.example` và điền `OPENAI_API_KEY` của bạn.
+    *   Thêm `GEMINI_KEY=your_gemini_api_key_here` vào file `.env`.
+    *   Để lấy API key miễn phí:
+        1. Truy cập [Google AI Studio](https://makersuite.google.com/app/apikey)
+        2. Đăng nhập bằng tài khoản Google
+        3. Tạo API key mới
+        4. Copy key vào file `.env`
 
 4.  **Chạy ứng dụng (development mode):**
 

@@ -44,8 +44,27 @@ function App() {
             </div>
           )}
           {isLoading && (
-            <div className="mt-6 text-center">
-              <p>Loading...</p>
+            <div className="mt-8 bg-white dark:bg-mystic-800 rounded-xl p-8 card-shadow mystical-bg animate-fade-in">
+              <div className="text-center">
+                <div className="relative mx-auto w-24 h-24 mb-6">
+                  <div className="absolute inset-0 border-4 border-primary-200 dark:border-primary-800 rounded-full animate-pulse"></div>
+                  <div className="absolute inset-2 border-4 border-primary-400 dark:border-primary-600 rounded-full animate-spin"></div>
+                  <div className="absolute inset-0 flex items-center justify-center text-3xl animate-pulse">
+                    🔮
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-primary-700 dark:text-primary-300 mb-3">
+                  ✨ Đang bốc bài cho bạn... ✨
+                </h3>
+                <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
+                  <p className="animate-pulse">🃏 Trộn 78 lá bài Tarot...</p>
+                  <p className="animate-pulse" style={{ animationDelay: '0.5s' }}>🌟 Kết nối với năng lượng tâm linh...</p>
+                  <p className="animate-pulse" style={{ animationDelay: '1s' }}>📖 AI đang giải nghĩa cho bạn...</p>
+                </div>
+                <div className="mt-6 text-xs text-gray-500 dark:text-gray-500">
+                  Quá trình này có thể mất vài giây để tạo ra kết quả chính xác nhất
+                </div>
+              </div>
             </div>
           )}
           {tarotReading && (
