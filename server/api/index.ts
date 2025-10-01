@@ -1,5 +1,4 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import cors from 'cors';
 import crypto from 'crypto';
 import GeminiService from '../src/utils/gemini';
 import { TarotCard, DrawnCard, TarotRequest, DatabaseReading } from '../src/types';
@@ -18,10 +17,6 @@ class MemoryDatabase {
   }
 }
 
-const corsHandler = cors({
-  origin: true,
-  credentials: true,
-});
 
 const drawCards = (cards: TarotCard[]): DrawnCard[] => {
   const shuffled = cards.sort(() => 0.5 - Math.random());
